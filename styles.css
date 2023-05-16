@@ -1,0 +1,122 @@
+.menubutton
+{
+    width: max(180px, min(300px, 22vw));
+    font-size: 20px;
+    margin: 5px 10px;
+    color: #f0b000;
+    background-color: white;
+    border-width: 2px;
+    border-color: #f0b000;
+    transition: color 0.5s, background-color 0.5s;
+}
+
+.menubutton:hover
+{
+    color: white;
+    background-color: #f0b000;
+    border-color: #f0b000;
+    --bs-btn-active-bg: #ffd666;
+    --bs-btn-active-border-color: #f0b000;
+}
+
+#home-title
+{
+    margin: 30px 0;
+    color: #663300;
+}
+
+#page-top
+{
+    background-color: #ffffe6;
+    padding-bottom: 23px;
+    --bs-border-color: #663300;
+    --bs-border-width: 2px;
+}
+
+#desc
+{
+    padding: 30px 0 15px 0;
+    font-size: 20px;
+    margin: 20px;
+    text-align: center;
+}
+
+h2
+{
+    padding-bottom: 10px;
+}
+
+::marker
+{
+    font-size: 0px;
+}
+
+p.card-text
+{
+    font-size: min(20px, 4vw);
+    text-decoration: none;
+}
+
+img.card-top
+{
+    height: 400px
+}
+
+.img-overlay
+{
+    position: absolute;
+    background-color: #ffd666;
+    visibility: hidden;
+    opacity: 0.5;
+    z-index: 9;
+    transition: visibility 0.5s;
+}
+
+.img-overlay:hover
+{
+    visibility: visible;
+}
+
+#quiz-title
+{
+    margin: 25px 0;
+}
+
+.quizbutton
+{
+    width: 200px;
+    font-size: 15px;
+    margin: 5px 10px;
+    color: black;
+    background-color: white;
+    border-width: 2px;
+    border-color: black;
+    transition: color 0.5s, background-color 0.5s;
+}
+
+.quizbutton:hover
+{
+    color: black;
+    background-color: #e8c987;
+    border-color: black;
+    --bs-btn-active-bg: #d69f29;
+    --bs-btn-active-border-color: black;
+}
+
+#question-displayer, #end-screen
+{
+    position: absolute;
+    top: 100px;
+}
+
+.form-check-input
+{
+    border-color: black;
+    border-width: 1px;
+    background-color: #f2f2f2;
+}
+
+#result-display
+{
+    font-size: 20px;
+}
