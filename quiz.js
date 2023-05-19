@@ -176,7 +176,7 @@ function mainQuiz()
             "Do you enjoy computer programming?",
             "Yes, coding is a slay and I slay at it B)",
             "It can be a challenge but it's cool.",
-            "It suppose it is mildly satisfying when things work, which isn't often.",
+            "I suppose it is mildly satisfying when things work, which isn't often.",
             "sucks."
         ],
         [
